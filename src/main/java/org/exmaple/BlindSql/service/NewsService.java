@@ -19,7 +19,7 @@ public class NewsService {
   }
 
   public News getById(String id){
-    String sql = "SELECT * FROM news ns WHERE ns.id ="+ id;
+    String sql = "SELECT * FROM uoc.news ns WHERE ns.id ="+ id;
     News news = new News();
     try {
       ResultSet result = sqlService.getResultSet(sql);
