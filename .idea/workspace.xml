@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84e3ae92-9e3c-450d-9230-31d321fdd7e0" name="Changes" comment="upload">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/BlindSqlApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/BlindSqlApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/controller/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/service/NewsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/docker/mariaDB/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/docker/mariaDB/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/exmaple/BlindSql/BlindSqlApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/exmaple/BlindSql/BlindSqlApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +95,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mariaDB: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="src/main/resources/docker/mariaDB/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.BlindSqlApplication" />
@@ -120,6 +121,8 @@
       <updated>1671727975151</updated>
       <workItem from="1671727976250" duration="8472000" />
       <workItem from="1671876777191" duration="9922000" />
+      <workItem from="1671891953118" duration="2106000" />
+      <workItem from="1671967330428" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1671888957787</created>
