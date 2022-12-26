@@ -1,13 +1,7 @@
 package org.exmaple.BlindSql.controller;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.sql.SQLException;
 import org.exmaple.BlindSql.model.News;
 import org.exmaple.BlindSql.service.NewsService;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,5 +22,4 @@ public class NewsController {
     model.addAttribute("news",news);
     return "news";
   }
-
 }

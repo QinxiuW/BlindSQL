@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="84e3ae92-9e3c-450d-9230-31d321fdd7e0" name="Changes" comment="upload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/controller/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/docker/mariaDB/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/docker/mariaDB/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +124,9 @@
       <workItem from="1671727976250" duration="8472000" />
       <workItem from="1671876777191" duration="9922000" />
       <workItem from="1671891953118" duration="2106000" />
-      <workItem from="1671967330428" duration="303000" />
+      <workItem from="1671967330428" duration="900000" />
+      <workItem from="1671969751538" duration="1619000" />
+      <workItem from="1671974750286" duration="8840000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1671888957787</created>
@@ -138,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671888976367</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="upload">
+      <created>1671967729783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671967729783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,11 +180,6 @@
           <line>44</line>
           <properties field="builder" class="org.springframework.boot.test.web.client.TestRestTemplate" />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/controller/TestController.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
