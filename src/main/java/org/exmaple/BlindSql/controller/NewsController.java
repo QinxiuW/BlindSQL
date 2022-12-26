@@ -17,7 +17,7 @@ public class NewsController {
   }
 
   @GetMapping("/news")
-  public String getNewsById(Model model, @RequestParam String id){
+  public String getNewsById(Model model, @RequestParam Integer id){
     News news = newsService.getById(id);
     model.addAttribute("news",news);
     return "news";

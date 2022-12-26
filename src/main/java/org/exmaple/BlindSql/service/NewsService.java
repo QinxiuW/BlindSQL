@@ -18,7 +18,7 @@ public class NewsService {
     this.sqlService = sqlService;
   }
 
-  public News getById(String id){
+  public News getById(Integer id){
     String sql = "SELECT * FROM uoc.news ns WHERE ns.id ="+ id;
     News news = new News();
     try {
