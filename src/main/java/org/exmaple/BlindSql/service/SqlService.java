@@ -27,11 +27,12 @@ public class SqlService {
     Connection conn= getConnection();
     Statement stat = conn.createStatement();
     ResultSet result = stat.executeQuery(sql);
+    stat.close();
     conn.close();
     return result;
   }
 
-  private Connection getConnection() throws SQLException {
+  public Connection getConnection() throws SQLException {
     return  DriverManager.getConnection(connectionString, username, password);
   }
 }

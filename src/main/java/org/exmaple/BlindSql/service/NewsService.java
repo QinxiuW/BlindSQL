@@ -1,6 +1,7 @@
 package org.exmaple.BlindSql.service;
 
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.ParseException;
@@ -19,10 +20,13 @@ public class NewsService {
   }
 
   public News getById(String id){
-    String sql = "SELECT * FROM uoc.news ns WHERE ns.id ="+ id;
+    String sql = "SELECT * FROM uoc.news ns WHERE ns.id = ?";
     News news = new News();
     try {
-      ResultSet result = sqlService.getResultSet(sql);
+      PreparedStatement stmt = sqlService.getConnection().prepareStatement(sql);
+      stmt.setString(1, id);
+      ResultSet result = stmt.executeQuery();
+
       if (result.next()){
         int currentID = Integer.parseInt(result.getString("id"));
         String title= result.getString("title");

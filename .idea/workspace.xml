@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="84e3ae92-9e3c-450d-9230-31d321fdd7e0" name="Changes" comment="upload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/controller/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/docker/mariaDB/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/docker/mariaDB/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/service/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/service/SqlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exmaple/BlindSql/service/SqlService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
